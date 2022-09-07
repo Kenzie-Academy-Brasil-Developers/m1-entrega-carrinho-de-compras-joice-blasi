@@ -1,0 +1,98 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100;300&display=swap');
+
+body {
+    font-family: 'Montserrat', sans-serif;
+    background-color: #D3D3D3;
+}
+
+main {
+    height: 100vh;
+    margin-left: 3%;
+    margin-right: 3%;
+}
+
+h1 {
+    font-size: 25px;
+    text-align: center;
+    font-weight: bolder;
+    padding: 20px;
+    color: #660708;
+}
+
+#products-list {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 10px;
+}
+
+section {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.div-header, .product-details, div, .button-end {
+    width: 60%;
+    display: flex;
+    margin: 8px;
+    border-radius: 7px;
+}
+
+.div-header, div {
+    background-color: #978887;
+    
+}
+
+.product-details {
+    background-color: #D3D3D3;
+    border-bottom: 1px solid #978887;
+    border-right: 1px solid #978887;
+}
+
+.product-details:hover .hidden{
+    display: block;
+    cursor: pointer;
+}
+
+.div-header, .product-details, div {
+    justify-content: space-between;
+}
+
+.item-name {
+    width: 40%;
+}
+
+.item-price {
+    width: 10%;
+    display: flex;
+    justify-content: flex-end;
+}
+
+.button-end {
+    justify-content: center;
+    padding: 12px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: bold;
+    color: #F5F3F4;
+    background-color: #660708;
+    cursor: pointer;
+}
+
+.header-product, .header-value, .item-name, .item-price, .sum, .total {
+    padding: 12px;
+    color: #161A1D;
+}
+
+.trash {
+    height: 20px;
+}
+
+.hidden {
+    display: none;    
+}
+
+.hidden:active {
+    height: 22px;
+}
+
